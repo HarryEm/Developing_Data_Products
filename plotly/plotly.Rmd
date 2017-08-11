@@ -53,12 +53,6 @@ in the data frame you use with `plot_ly()`.
 plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter", color = ~factor(cyl))
 ```
 
-## Scatterplot Color
-
-```{r, echo=FALSE, message=FALSE}
-plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter", color = ~factor(cyl))
-```
-
 ## Continuous Color
 
 You can also show continuous variables with color in scatterplots.
